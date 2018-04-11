@@ -1,3 +1,5 @@
+#1차
+
 import random
 
 arr = [0]*6
