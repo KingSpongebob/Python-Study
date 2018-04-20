@@ -1,3 +1,5 @@
+#1차
+
 import random
 import sys
 
