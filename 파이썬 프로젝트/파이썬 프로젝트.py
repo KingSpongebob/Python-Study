@@ -1,5 +1,3 @@
-#1차
-
 import random
 import sys
 
@@ -16,11 +14,11 @@ while(1):
     while(i):
         try:
             roll = int(input('주사위 돌리세요(종료 = 0) : '))    # 주사위 굴리기
-        except:                                                 #입력된 값이 정수가 아닐경우         
+        except:                                                               #입력된 값이 정수가 아닐경우         
             print("정수만 입력하세요.")
         else:
             i = 0            
-        finally:                                                  #0이면 종료
+        finally:                                                                #0이면 종료
             if (roll < 1):
                 sys.exit(1)
                 
@@ -40,3 +38,8 @@ while(1):
 
 #표준편차
     S = V**0.5
+
+    print(' 확률     :', pro)
+    print(' 기댓값   :', E)
+    print(' 분산     :', V)
+    print(' 표준편차 :', S)
